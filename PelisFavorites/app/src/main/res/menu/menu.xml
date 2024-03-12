@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/idMovieDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"
+        android:title="TODO" />
+    <item
+        android:id="@+id/idWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="?android:attr/textSelectHandle"
+        android:title="Temps"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ordenarASC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Títol ASC" />
+    <item
+        android:id="@+id/ordenarDESC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Títol DESC" />
+    <item
+        android:id="@+id/PuntuacioDESC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Puntuació DESC" />
+    <item
+        android:id="@+id/PuntuacioASC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Puntuació ASC" />
+</menu>
